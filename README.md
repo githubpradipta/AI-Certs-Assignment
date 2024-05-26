@@ -2,7 +2,7 @@
 # AI CERTS Assignment (To-Do List Application)
 
 ## Short Description:
-This is a todo list in which all the `front-end` pagesa are developed by `React.Js` and all `back-end` API endpoints are made by `Express.Js`.
+This is a todo list in which all the `front-end` pages are developed by `React.Js` and `back-end` API endpoints are made by `Express.Js`.
 
 User can add new tasks in the todo list by clicking `Create task` button and also can see the list of all tasks along with manage the status of a particular task by clicking on it and can toggle a task between `Pending` and `Complete`.
 
