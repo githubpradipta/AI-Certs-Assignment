@@ -1,5 +1,5 @@
 
-# AI CERTS Assignment
+# AI CERTS Assignment (To-Do List Application)
 
 ## Short Description:
 This is a todo list in which all the `front-end` pagesa are developed by `React.Js` and all `back-end` API endpoints are made by `Express.Js`.
