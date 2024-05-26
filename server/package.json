@@ -1,0 +1,22 @@
+{
+  "name": "ai_certs_backend",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js"
+  ],
+  "author": "Pradipta Banerjee",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.1",
+    "uuid": "^9.0.1"
+  }
+}

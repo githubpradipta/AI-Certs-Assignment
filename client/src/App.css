@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap');
+/* *{
+  font-family: 'Jost', sans-serif !important;
+} */
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(125, 1, 219);
+  min-height: 100vh;
+}
+.todowarpper{
+  margin-top: 100px;
+  width: 400px;
+  padding: 30px 10px;
+  background-color: rgb(36, 0, 94);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todowarpper p{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Jost', sans-serif;
+}
+.todowarpper h1{
+  font-size: 25px;
+  color: #fff;;
+  margin-top: 0px;
+  font-family: 'Jost', sans-serif;
+}
+.todoform input{
+  width: 210px;
+  padding: 6px 15px;
+  margin: 4px 0px;
+  border: 2px solid rgb(125, 1, 219);
+  outline: none;
+  background: transparent;
+  color: #fff;
+  font-family: 'Jost', sans-serif;
+}
+.todoform input::placeholder{
+  color: #747373;
+}
+.todoform button{
+  margin-top: 8px;
+}
+.btn{
+  width: 90px;
+  height: 36px;
+  outline: none;
+  text-decoration: none;
+  border: 2px solid rgb(125, 1, 219);
+  background-color: rgb(125, 1, 219);
+  color: #fff;
+  transition: all 0.2s ease;
+}
+.btn:hover{
+  transform: scale(110%);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.todos{
+  width: 336px;
+  margin: 25px 0px 0px 20px;
+  padding: 0px 13px;
+  margin-left: 0px;
+  background-color: rgb(125, 1, 219);
+  color: #fff;
+  font-size: 16x;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+.innerdiv{
+  text-align: left;
+}
+.innerdiv p{
+  font-size: 13px;
+}
+.todos p{
+  padding: 3px;
+  margin: 0px;
+  text-align: left;
+  font-family: 'Jost', sans-serif;
+}
+.todos p:hover{
+  cursor: pointer;
+}
+.todos .completed{
+  color: #7e7d7d;
+  /* margin: 0px 200px 0px 0px; */
+}
+.todos .dlt-icon{
+  transition: all 0.3s ease;
+}
+.todos .dlt-icon:hover{
+cursor: pointer;
+transform: scale(110%);
+}
+.todos .todo-re{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.todos .todo-info{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.todos .not-checked{
+  visibility: hidden;
+}
+.todos .update-icon{
+  font-size: 30px;
+  margin-right: 5px;
+  transition: all 0.3s ease;
+}
+.todos .update-icon:hover{
+  cursor: pointer;
+  transform: scale(110%);
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.editForm{
+  margin-top: 20px;
+}
+.editForm input{
+  width: 238px;
+}
